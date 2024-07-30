@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
-import router from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { Slide } from "react-awesome-reveal";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
@@ -98,14 +97,15 @@ const TabMenuMateri = () => {
       }
     };
 
-    if (scrollRef.current) {
+    const currentRef = scrollRef.current;
+    if (currentRef) {
       handleScroll();
-      scrollRef.current.addEventListener("scroll", handleScroll);
+      currentRef.addEventListener("scroll", handleScroll);
     }
 
     return () => {
-      if (scrollRef.current) {
-        scrollRef.current.removeEventListener("scroll", handleScroll);
+      if (currentRef) {
+        currentRef.removeEventListener("scroll", handleScroll);
       }
     };
   }, []);

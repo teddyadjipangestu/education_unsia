@@ -24,85 +24,85 @@ const MainTableMateri = ({
   switch (searchParams?.tab) {
     case "materi14":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan14 />
         </Suspense>
       );
     case "materi13":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan13 />
         </Suspense>
       );
     case "materi12":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan12 />
         </Suspense>
       );
     case "materi11":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <PerTemuan11 />
         </Suspense>
       );
     case "materi10":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan10 />
         </Suspense>
       );
     case "materi9":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan9 />
         </Suspense>
       );
     case "materi8":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan8 />
         </Suspense>
       );
     case "materi7":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan7 />
         </Suspense>
       );
     case "materi6":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan6 />
         </Suspense>
       );
     case "materi5":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan5 />
         </Suspense>
       );
     case "materi4":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan4 />
         </Suspense>
       );
     case "materi3":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <Pertemuan3 />
         </Suspense>
       );
     case "materi2":
       return (
-        <Suspense key={keyString} fallback={"skeleton"}>
+        <Suspense key={keyString} fallback={"loading"}>
           <PerTemuan2 />
         </Suspense>
       );
     default:
       return (
-        <Suspense key={keyString}>
+        <Suspense key={keyString} fallback={"loading"}>
           <PerTemuan1 />
         </Suspense>
       );
