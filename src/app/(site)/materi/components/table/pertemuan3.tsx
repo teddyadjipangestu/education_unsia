@@ -40,9 +40,9 @@ const Pertemuan3 = () => {
           HTML dibuat dengan tag
         </p>
         <p className="text-[14px] text-[#3D3C38] ">
-          Paragraf di HTML digunakan untuk mengelompokkan teks menjadi blok-blok
+          {`Paragraf di HTML digunakan untuk mengelompokkan teks menjadi blok-blok
           yang terpisah agar lebih mudah dibaca dan dipahami. Dalam HTML,
-          paragraf ditandai dengan elemen "{`<p>`}".
+          paragraf ditandai dengan elemen "<p>".`}
         </p>
       </div>
       <div className="h-[25px]"></div>
